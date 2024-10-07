@@ -35,4 +35,4 @@ ALTER TABLE Orders
 ADD CONSTRAINT fk1 FOREIGN KEY (MenuID) 
 REFERENCES Menu(DishID) ;
 
-
+#have to add null and autoincrement later for the datatypes
